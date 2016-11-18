@@ -1,0 +1,155 @@
+<web-app>
+	
+	<servlet>
+		<servlet-name>reg</servlet-name>
+		<servlet-class>mypack.Register</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>reg</servlet-name>
+		<url-pattern>/registration</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>log</servlet-name>
+		<servlet-class>mypack.Login</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>log</servlet-name>
+		<url-pattern>/login</url-pattern>
+	</servlet-mapping>
+	<servlet>
+		<servlet-name>uregi</servlet-name>
+		<servlet-class>mypack.UserRegistration</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>uregi</servlet-name>
+		<url-pattern>/userregistration</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>logOut</servlet-name>
+		<servlet-class>mypack.Logout</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>logOut</servlet-name>
+		<url-pattern>/logout</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>logOut1</servlet-name>
+		<servlet-class>mypack.UserLogout</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>logOut1</servlet-name>
+		<url-pattern>/ulogout</url-pattern>
+	</servlet-mapping>
+
+
+	<servlet>
+		<servlet-name>contactus</servlet-name>
+		<servlet-class>mypack.ContactUs</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>contactus</servlet-name>
+		<url-pattern>/contact</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>contactus1</servlet-name>
+		<servlet-class>mypack.ContactUs1</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>contactus1</servlet-name>
+		<url-pattern>/contact1</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>editProfile</servlet-name>
+		<servlet-class>mypack.EditProfile</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>editProfile</servlet-name>
+		<url-pattern>/editprofile</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>editProfile1</servlet-name>
+		<servlet-class>mypack.EditProfile1</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>editProfile1</servlet-name>
+		<url-pattern>/editprofile1</url-pattern>
+	</servlet-mapping>
+
+
+	<servlet>
+		<servlet-name>createCloud</servlet-name>
+		<servlet-class>mypack.CreateCloud</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>createCloud</servlet-name>
+		<url-pattern>/createcloud</url-pattern>
+	</servlet-mapping>
+	<servlet>
+		<servlet-name>editCloud</servlet-name>
+		<servlet-class>mypack.EditCloud</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>editCloud</servlet-name>
+		<url-pattern>/editcloud</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>fileDownload</servlet-name>
+		<servlet-class>mypack.FileDownload</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>fileDownload</servlet-name>
+		<url-pattern>/filedownload</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>fileDownload1</servlet-name>
+		<servlet-class>mypack.FileDownload1</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>fileDownload1</servlet-name>
+		<url-pattern>/filedownload1</url-pattern>
+	</servlet-mapping>
+
+
+	  <servlet>
+        <servlet-name>uploadActions</servlet-name>
+        <servlet-class>mypack.UploadActions</servlet-class>
+    </servlet>
+
+	<servlet-mapping>
+        <servlet-name>uploadActions</servlet-name>
+        <url-pattern>/uploadactions</url-pattern>
+    </servlet-mapping>
+
+	<servlet>
+        <servlet-name>DeleteAction</servlet-name>
+        <servlet-class>mypack.DeleteFile</servlet-class>
+    </servlet>
+
+	<servlet-mapping>
+        <servlet-name>DeleteAction</servlet-name>
+        <url-pattern>/deletefile</url-pattern>
+    </servlet-mapping>
+
+	<servlet>
+        <servlet-name>validatefile</servlet-name>
+        <servlet-class>mypack.Validate</servlet-class>
+    </servlet>
+
+	<servlet-mapping>
+        <servlet-name>validatefile</servlet-name>
+        <url-pattern>/validate</url-pattern>
+    </servlet-mapping>
+
+	<welcome-file-list>
+		<welcome-file>index.jsp</welcome-file>
+	</welcome-file-list>
+
+</web-app>
